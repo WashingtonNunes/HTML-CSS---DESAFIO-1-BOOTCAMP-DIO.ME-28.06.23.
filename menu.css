@@ -1,0 +1,26 @@
+.menu {
+    width: 250px;
+    font-weight: bold;
+}
+
+.menu ul {
+    margin: 10px 16px 15px 30px;
+    font-size: 15px;
+    padding: 0;
+    background-color: rgb(164, 244, 140);
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(244, 202, 96);
+}
+
+.menu li.active {
+    background-color: white;
+}

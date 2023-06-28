@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #ddd9d9;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 940px;
+    display: flex;
+    background-color: rgb(121, 164, 244);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.tituloMenu {
+    padding-left: 50px;
+    font-size: 5px;
+    font: message-box;
+    color: rgb(2, 78, 21);
+}
+
+.menu {
+    width: 250%;
+    background-color: rgb(164, 244, 140);
+    padding: 400px 40px 20px 20px;
+    }
+
+
+.header {
+    background-color: rgb(5, 108, 108);
+    height: 200px;
+}
+
+.flex-container {
+    display:flex;
+    align-items: center;
+    background-color: rgb(227, 243, 249);
+    min-height: 300px;
+    padding-right: 30px;
+}
+
+.video1 {
+    display: flex;
+    width: 40%;
+    height: 300px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 5px;
+}
+
+.tituloConteudo {
+    color: rgb(14, 14, 110);
+    padding-top: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.inicio-paragrafo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(14, 14, 110)
+}
+
+.citacao {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.textConteudo {
+    width: 50%;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.difinicao {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 10px;
+    background-color: rgb(11, 45, 170);
+    min-height: 150px;
+}
+
+.imagemRodape{
+    display: flex;
+    padding: 10px 15px 0px 20px;
+}
+
+.endereco {
+    display: flex;
+    color: #ccc;
+    padding: 60px 20px 20px 20px;
+}
+
+.copyright {
+    display: flex;
+    color: yellowgreen;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+/*pag2.*/
+
+.tituloPag2 {
+    text-align: center;
+    padding: 20px 100px 10px 100px;
+    color: rgb(14, 14, 110);
+}
+
+.textoPag2 {
+    padding: 0px 100px 50px 110px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.inicio-paragrafo2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(14, 14, 110);
+}
+
+.Container{
+    background-color: rgb(217, 243, 245);
+}
+
+
+/*pag3.*/
+
+.enfermeira{
+    padding-bottom: 10px;
+}
+
+.tituloTabela{
+    display: flex;
+    padding-bottom: 0%;
+    color: rgb(40, 154, 66);
+}
+
+.tabela {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 200px;
+    font-size: 17px;
+    color: black;    
+    text-align:center;
+}
+
+.imagemTabela {
+    padding-left: 10px;
+    padding-top: 280px;
+    padding-bottom: 300px;
+}
+    
+ .tabela tbody tr:nth-child(even) td {
+    background-color: rgb(86, 94, 246);
+}
+
+/*pag4.*/
+
+
+.divPag4 {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+
+.tituloPag4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(14, 14, 110);
+}
+
+.textoPag4 {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+.enviar {
+    display: block;
+    width: 12%;
+    margin-left: 665px;
+    margin-bottom: 30px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(250, 247, 247);
+    color: rgb(15, 1, 1);
+    font-weight:bold;
+    font-size: 16px;
+    font-weight: bold;
+   }
+
+.dadosContato{
+    border-radius: 10px;
+    border-color: darkolivegreen;
+    color: rgb(84, 46, 238);
+    text-align: center;
+    margin: 15px 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.imgWhatsapp{
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
